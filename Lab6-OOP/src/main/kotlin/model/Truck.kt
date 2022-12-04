@@ -1,4 +1,6 @@
-open class Truck()
+package model
+
+open class Truck
 {
      var products1 = (250..500).shuffled().last()
      var number=(0..1).shuffled().last()
